@@ -33,4 +33,13 @@ class MainActivity : AppCompatActivity(),Navegar {
         }
         transaction.commit()
     }
+
+    override fun remover(fragment: Fragment,fragmentTwo:Fragment) {
+        val transaction:FragmentTransaction=supportFragmentManager
+            .beginTransaction()
+            .remove(fragment)
+            .replace(R.id.container,fragmentTwo)
+
+        transaction.commit()
+    }
 }

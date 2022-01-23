@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.christhemar.carritorest.R
 import com.christhemar.carritorest.model.Articulo
 
-class ArticuloAdapter(private val articuloList:List<Articulo>):RecyclerView.Adapter<ArticuloViewHolder>() {
+class ArticuloAdapter(private val articuloList:List<Articulo>, private val onClickListener:(Articulo)->Unit):RecyclerView.Adapter<ArticuloViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ArticuloViewHolder {
 
         val layoutInflater=LayoutInflater.from(parent.context)
@@ -15,7 +15,7 @@ class ArticuloAdapter(private val articuloList:List<Articulo>):RecyclerView.Adap
 
     override fun onBindViewHolder(holder: ArticuloViewHolder, position: Int) {
         val item=articuloList[position]
-        holder.render(item)
+        holder.render(item,onClickListener)
     }
 
     override fun getItemCount(): Int {
