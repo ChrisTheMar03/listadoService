@@ -36,7 +36,7 @@ class detailFragment : Fragment() {
             //Adaptando datos
             marca?.text=datoMarca.toString()
             producto?.text=datoProducto.toString()
-            precio?.text=datoPrecio.toString()
+            precio?.text="S/."+datoPrecio.toString()
             imagen?.let { Glide.with(this).load(datoImagen).into(it) }
         })
     }
