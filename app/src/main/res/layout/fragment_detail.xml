@@ -88,7 +88,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
         android:padding="6dp"
-        android:text="Sugeridos"
+        android:text="Categorias"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -119,12 +119,12 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:src="@drawable/ic_baseline_broken_image_24"
+                    android:src="@drawable/carts"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Laptop"
+                    android:text="Hogar"
                     android:gravity="center_horizontal"
                     android:paddingHorizontal="5dp"
                     android:textSize="18sp"
@@ -142,12 +142,12 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:src="@drawable/ic_baseline_broken_image_24"
+                    android:src="@drawable/fruit"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Computadora"
+                    android:text="Frutas"
                     android:gravity="center_horizontal"
                     android:paddingHorizontal="5dp"
                     android:textSize="18sp"
@@ -165,12 +165,12 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:src="@drawable/ic_baseline_broken_image_24"
+                    android:src="@drawable/camisa"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Radio"
+                    android:text="Ropa"
                     android:gravity="center_horizontal"
                     android:paddingHorizontal="5dp"
                     android:textSize="18sp"
@@ -188,12 +188,12 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
-                    android:src="@drawable/ic_baseline_broken_image_24"
+                    android:src="@drawable/dormitorio"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Tablet"
+                    android:text="Dormitorio"
                     android:gravity="center_horizontal"
                     android:paddingHorizontal="5dp"
                     android:textSize="18sp"

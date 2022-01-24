@@ -5,10 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextClock
-import android.widget.TextView
+import android.widget.*
 import androidx.fragment.app.FragmentResultListener
 import com.bumptech.glide.Glide
 import com.christhemar.carritorest.R
@@ -57,7 +54,8 @@ class detailFragment : Fragment() {
         val btnVolver=view.findViewById<Button>(R.id.btnVolver)
 
         btnVolver.setOnClickListener {
-            (activity as Navegar).navegar(mainFragment(),false)
+            //(activity as Navegar).navegar(mainFragment(),false)
+            Toast.makeText(context,"Boton en Mantenimiento!!",Toast.LENGTH_LONG).show()
         }
 
     }

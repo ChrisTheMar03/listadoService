@@ -16,6 +16,7 @@
             android:id="@+id/app_bar"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:background="@color/botonCarrito"
             app:navigationIcon="@drawable/menu_medium"
             app:title="Tienda"
             />
@@ -40,7 +41,8 @@
             android:layout_marginStart="200dp"
             android:layout_width="70dp"
             android:layout_height="match_parent"
-            android:layout_gravity="end" />
+            android:layout_gravity="end"
+            android:src="@drawable/ic_baseline_broken_image_24"/>
 
     </LinearLayout>
 
