@@ -10,7 +10,7 @@ Consumiendo Servicio - Usando camara
 <li>Click derecho al icono de internet que se encuentra en la parte inferior derecha de su maquina</li>
 <li>Dar click en -> Abrir configuracion de red e internet</li>
 <li>(Estado) -> Dar click en 'Propiedades'</li>
-<l1>Apretar en 'Publico'</li>
+<li>Click en 'Publico'</li>
 </ol>
 
 <p>Activamos el modo publico para que nuestro movil pueda acceder a la api creada</p>
