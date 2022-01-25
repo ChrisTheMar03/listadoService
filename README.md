@@ -1,5 +1,5 @@
 # APP Movil
-Consumiendo Servicio - Usando de camara
+Consumiendo Servicio - Usando camara
 
 <h2>Recomendacion</h2>
 
