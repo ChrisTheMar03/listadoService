@@ -1,5 +1,5 @@
 # listadoService
-Listado de servicios
+APP Movil - Consumiendo Servicio - Usando camara
 
 <h2>Recomendacion</h2>
 
