@@ -1,7 +1,7 @@
 # listadoService
 Listado de servicios
 
-<h2>Hola</h2>
+<h2>Recomendacion</h2>
 
 <p>Para que funcione o llame al servicio creado en db.json el Perfil de Red debe estar en modo publico</p>
 <p>WINDOWS 10</p>
