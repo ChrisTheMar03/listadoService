@@ -107,12 +107,12 @@ class LoginFragment : Fragment() {
                     } else {
                         Toast.makeText(
                             context,
-                            "Please enable camera and storage permission",
+                            "Habilite los permisos de camara y almacenamiento!!",
                             Toast.LENGTH_LONG
                         ).show()
                     }
                 } else {
-                    Toast.makeText(context, "Something went wrong! try again...", Toast.LENGTH_LONG)
+                    Toast.makeText(context, "Intente de Nuevo", Toast.LENGTH_LONG)
                         .show()
                 }
             }
@@ -122,7 +122,7 @@ class LoginFragment : Fragment() {
     private fun showImagePicDialog() {
         var opciones:Array<String> = arrayOf("Camera", "Gallery")
         val builder=AlertDialog.Builder(context)
-        builder.setTitle("Pick image from")
+        builder.setTitle("Elegir una imagen..")
         builder.setItems(opciones, DialogInterface.OnClickListener { dialogInterface, i ->
             if (i == 0) {
                 if (!checkCameraPermission()) {

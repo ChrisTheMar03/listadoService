@@ -10,6 +10,4 @@ import retrofit2.http.GET
 interface ArticuloService {
     @GET("posts")
     fun articleList():Call<List<Articulo>>
-
-
 }
