@@ -1,6 +1,8 @@
 # APP Movil
 Consumiendo Servicio - Usando camara
 
+<p style="color:red;">[El archivo 'db.json' lo subi accidentalmente con los demas archivos del proyecto]</p>
+
 <h2>Recomendacion</h2>
 
 <p>Para que funcione o llame al servicio creado en db.json el Perfil de Red debe estar en modo publico</p>
