@@ -1,0 +1,16 @@
+{
+    "posts": [
+      { "id": 1, "producto": "Televisor 4k","img":"https://images.samsung.com/is/image/samsung/latin-uhdtv-nu7095-un55nu7095gxzs-frontblack-229131451?$720_576_PNG$", "marca": "Samsung", "precio":"2499.99" },
+      { "id": 2, "producto": "Notebook Pro","img":"https://plazavea.vteximg.com.br/arquivos/ids/2026745-450-450/20200937.jpg", "marca": "HP", "precio":"2449.99" },
+      { "id": 3, "producto": "Tablet YT","img":"https://plazavea.vteximg.com.br/arquivos/ids/1919887-450-450/20192314.jpg", "marca": "Lenovo", "precio":"729.99" },
+      { "id": 4, "producto": "Laptop","img":"https://plazavea.vteximg.com.br/arquivos/ids/2301392-300-300/20237345.jpg?v=637656895655470000", "marca": "ASUS", "precio":"3999.99" },
+      { "id": 5, "producto": "Playstation 5","img":"https://i.linio.com/p/d3efe17a56d390627d0fa30eb73e4809-catalog.webp", "marca": "Sony", "precio":"3599.99" },
+      { "id": 6, "producto": "Nintendo Switch","img":"https://plazavea.vteximg.com.br/arquivos/ids/506566-450-450/20202618.jpg", "marca": "Nintendo", "precio":"2039.99" },
+      { "id": 7, "producto": "Televisor NanoCell","img":"https://plazavea.vteximg.com.br/arquivos/ids/2418432-300-300/20221059.jpg?v=637673533469900000", "marca": "LG", "precio":"2199.99" },
+      { "id": 8, "producto": "Smartphone Xiaomi Redmi","img":"https://plazavea.vteximg.com.br/arquivos/ids/3421028-300-300/20250991.jpg?v=637734486430500000", "marca": "XIAOMI", "precio":"879.99" },
+      { "id": 9, "producto": "Camara Fotografica","img":"https://plazavea.vteximg.com.br/arquivos/ids/552163-300-300/20190219.jpg?v=637425724043500000", "marca": "CANON", "precio":"2599.99" },
+      { "id": 10, "producto": "Impresora Multifuncional","img":"https://plazavea.vteximg.com.br/arquivos/ids/2327033-300-300/20237579.jpg?v=637660589687100000", "marca": "EPSON", "precio":"1149.99" },
+      { "id": 11, "producto": "Notebook Acer AN515","img":"https://plazavea.vteximg.com.br/arquivos/ids/2457082-300-300/20235143.jpg?v=637679973271530000", "marca": "ACER", "precio":"3999.99" },
+      { "id": 12, "producto": "Televisor LED 65","img":"https://plazavea.vteximg.com.br/arquivos/ids/2402371-300-300/20237878.jpg?v=637671505136870000", "marca": "HISENSE", "precio":"1999.99" }
+    ]
+}
